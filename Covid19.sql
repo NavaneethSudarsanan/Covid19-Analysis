@@ -47,7 +47,7 @@ WHERE continent is not null
 GROUP BY date
 ORDER BY 1
 
--- Total Population VS Vaccinations(FullY Vaccinated Individuals)
+-- Total Population VS Vaccinations(Fully Vaccinated Individuals)
 WITH DoubleDose(location,population,FullyVaccinated)
 AS
 (
